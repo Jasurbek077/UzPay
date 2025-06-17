@@ -21,6 +21,8 @@ public class Main {
                     2.Login
                     0.Exit ==> 
                     """);
+
+
             stepCode = scInt.nextInt();
             switch (stepCode){
                 case 1 -> {
@@ -30,7 +32,7 @@ public class Main {
                     System.out.println("enter your password");
                     String password = scStr.nextLine();
 
-                    userService.`registerUser(new User(name,password));
+                    userService.registerUser(new User(name,password));
                 }
                 case 2 -> {
                     System.out.print("enter your name ");
@@ -67,6 +69,8 @@ public class Main {
                                 card.setCardBalance(balance);
                             }
                             case 2 -> {
+
+
                                 System.out.print("enter card number ");
                                 String number = scStr.nextLine();
 
@@ -74,6 +78,8 @@ public class Main {
                                 String cardPassword = scStr.nextLine();
 
                                 cardService.deleteCard(new Card(number,cardPassword));
+
+
                             }
                             case 3 -> {
                                 System.out.print("enter card number ");
