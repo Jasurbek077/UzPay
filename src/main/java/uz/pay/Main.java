@@ -31,7 +31,9 @@ public class Main {
                     System.out.println("enter your password");
                     String password = scStr.nextLine();
 
-                    userService.`registerUser(new User(name,password));
+
+//                    lasjlashdjkasdlasdhasljd
+                    userService.registerUser(new User(name,password));
                 }
                 case 2 -> {
                     System.out.print("enter your name ");

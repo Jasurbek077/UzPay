@@ -9,6 +9,7 @@ public class Card {
     private String password;
     private int cardBalance;
 
+
     public Card(String cardNumber, String password) {
         this.cardNumber = cardNumber;
         this.password = password;
