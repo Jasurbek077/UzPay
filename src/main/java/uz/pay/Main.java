@@ -14,6 +14,7 @@ public class Main {
         Scanner scInt = new Scanner(System.in);
         Scanner scStr = new Scanner(System.in);
 
+        //it is just a change for try
         int stepCode = 10;
         while (stepCode != 0){
             System.out.print("""
