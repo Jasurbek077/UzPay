@@ -31,7 +31,7 @@ public class Main {
                     String password = scStr.nextLine();
 
 
-
+//                    lasjlashdjkasdlasdhasljd
                     userService.registerUser(new User(name,password));
                 }
                 case 2 -> {

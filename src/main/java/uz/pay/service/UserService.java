@@ -14,6 +14,8 @@ public class UserService {
         this.users = FileUtility.loadFileFromJson(USER_FILE, User.class);
     }
 
+
+
     public String registerUser(User user) {
         for (User u : users) {
             if (user.getName().equals(u.getName())) {
